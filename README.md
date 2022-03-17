@@ -1,2 +1,2 @@
-# Star-Bucks
+# StarBucks
 Cópia de site para aprendizado
