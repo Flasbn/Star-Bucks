@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starbucks Coffee Company</title>
+    <script src="/JS/script.js" defer></script>
+    <link rel="stylesheet" href="/CSS/style.css">
+</head>
+<body>
+    <header class="menu1">
+        <a href="#"><img src="/IMG/download.png" alt="logo" width="80px" class=""></a>
+        <nav class="menuPrincipal">
+            <ul class="menu">
+                <li><a href="/pageMenu/menu.html" target="_self">MENU</li>
+                <li><a href="#">REWARDS</li>
+                <li><a href="#">NOSSO CAFÉ</li>
+                <li><a href="#">IMPACTO SOCIAL</li>
+                </ul>
+        </nav><!--Menu Principal-->
+
+        <section class="menu2">
+            <div class="subMenu">
+                <div class="locAbout">
+                    <div id="sobre">
+                        <a href="#">
+                            <img src="/IMG/sb-historias-logo.svg" alt="sobre" width="120px">
+                        </a>
+                    </div><!--Sobre a empresa - LOGO-->
+                    <div id="location">
+                        <a href="#">
+                            <img src="/IMG/pin.png" alt="location" width="20px">Encontre uma loja
+                        </a>
+                    </div><!--Localização-->
+                </div><!--Divisão de SubMenus-->>
+            </div><!--SubMenu-->
+        </section><!--SubMenu-->
+    </header>
+
+    <article class="botoes">
+        <div class="btn">
+            <button id="btn1">Entrar</button>
+            <button id="btn2">Participe agora</button>
+        </div><!--Botões de Acesso-->
+    </article><!--Botões parte superior-->
+
+    <section class="imagens">
+        <div class="img">
+            <a href="#">
+                <img src="/IMG/dinamico/banner_1238893150_desktop.jpg" alt="Imagem alterada no JS 1" id="img1">
+                <!--<img src="/IMG/dinamico/banner_2437495195_desktop.jpg" alt="Imagem alterada no JS 2" id="img2"> SEGUNDA IMAGEM PARA FAZER CARROSSEL -->
+            </a>
+        </div><!--Imagem Principal 1-->
+        
+        <div class="botao">
+            <button id="btnInterativo">
+                <img src="/IMG/botao-avancar.png" alt="next" onclick="voltar()" width="30px">
+            </button>
+            <button id="btnInterativo2">
+                <img src="/IMG/botao-voltar.png" alt="next" onclick="avancar()" width="30px">
+            </button>
+        </div><!--Botão de Interação-->
+    </section><!--Interação com Imagens-->
+
+    <div class="saibaMais">
+        <p id="line1">
+            Conforme abrimos nossas lojas, permanecemos no compromisso
+            com a saúde e bem-estar de <br>
+            <p id="line2">
+                nossos partners e consumidores
+            </p>
+        </p>
+        <input type="button" value="Saiba Mais" id="saibaBotao">
+    </div><!--Div Saiba Mais-->
+
+    <section class="covid19">
+        <div class="imagemcafe">
+            <img src="/IMG/sb-dia-do-fotografo.jpg" width="680px">
+        </div><!--PICTURE // INFORMAÇÕES COVID-->
+        <div class="escritaInfo">
+            <h2 id="titulo">Voltando ao que amamos juntos</h2>
+            <p id="paragrafo">Queridos Clientes, partners e amigos, estamos</p>
+            <p>acompanhando a situação atual do Brasil em relação ao</p>
+            <p>COVID-19, focados na segurança e bem estar dos nossos</p>
+            <p id="line4">partners(como chamamos os nossos colaboradores) e </p>
+            <p id="line5">clientes. Seguimos os critérios de quarentena de cada</p>
+            <p id="line6">munícipio que temos lojas. As lojas abertas ou com</p>
+            <p id="line7">entrega via delivery, através do nosso parceiro Rappi,</p>
+            <p>estão seguindo as orientações das autoridades de saúde</p>
+            <input type="button" value="Baixe nosso App e verifique as lojas em funcionamento" id="App">
+        </div> <!--INFORMAÇÕES SOBRE COVID-->
+    </section><!--INFORMAÇÕES SOBRE COVID-19-->
+
+    <section class="saboreie">
+        <div class="infoSaboreie">
+            <h2 class="tituloSaboreie">Saboreie uma pausa</h2>
+            <p>Saboreie uma pausa com uma de nossas bebidas</p>
+            <input type="button" value="Saiba Mais" id="saboreieBotao">
+        </div><!--SABOREIE UMA PAUSA-->
+        <div class="imgSaboreie">
+            <img src="/IMG/featured-drinks.jpg" alt="imagemSabo" width="670px" height="400px">
+        </div>
+    </section><!--SABOREIE DRINKS-->
+
+    <section class="hope">
+        <div class="imgHope">
+            <img src="/IMG/donate.jpg" alt="imgHope" width="680px">
+        </div><!--IMAGEM ESPERANÇA-->
+        <div class="HU">
+            <h2 id="tituloHU">Esperança e União</h2>
+            <p id="paragrafoHU">Em parceira com ONGs, Partners da Starbucks se</p>
+            <p>mobilizam para entregar café às comunidades.</p>
+            <input type="button" value="Saiba mais" id="botaoHope">
+        </div><!--ESPERANÇA E UNIÃO // INFORMAÇÕES-->
+    </section><!--UNION AND HOPE-->
+
+    <section class="happened">
+        <div class="infoHapp">
+            <h2 class="tituloHapp">Coisas boas estão acontecendo</h2>
+            <p id="paragrafoHapp">Um gesto de carinho àqueles que estão na linha de frente</p>
+            <p>todos os dias.</p>
+            <input type="button" value="Saiba mais" id="botaoHapp">
+        </div>
+        <div class="imgHapp">
+            <img src="/IMG/partners.jpg" alt="imgHappened" width="680px">
+        </div><!--IMAGEM COM COLABORADORES-->
+    </section><!--COLABORADORES // COISAS ACONTECENDO-->
+
+    <section class="infoFinal">
+        <table >
+            <tr id="cabecalho">
+                <th>Sobre nós</th>
+                <th>Carreira</th>
+                <th>Impacto Social</th>
+                <th>Starbucks Rewards</th>
+            </tr>    
+            <tr>
+                <td><a href="#">Nossa Empresa</a></td>
+                <td><a href="#">Central de Carreiras</a></td>
+                <td><a href="#">Comunidade</a></td>
+                <td><a href="#">Baixe o Aplicativo</a></td>
+            </tr>
+            <tr>
+                <td><a href="#">Nosso Café</a></td>
+                <td></td>
+                <td><a href="#">Meio Ambiente</a></td>
+                <td><a href="#">Termos & Condições do <br>
+                Starbucks Card</a></td>
+            </tr>
+            <tr>
+                <td><a href="#">Atendimento ao Cliente</a></td>
+                <td></td>
+                <td><a href="#">Fornecimento Ético</a></td>
+                <td><a href="#">Termos & Condições do <br>
+                Starbucks Rewards</a></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td><a href="#">Histórias Starbucks</a></td>
+                <td><a href="#">Termos & Condições de <br>
+                Promoções Starbucks</a></td>
+            </tr>
+        </table>
+
+        <div class="sobreFinal">
+            <a href="#">
+                <img src="/IMG/sb-historias-logo.svg" alt="sobreFinal" width="120px">
+            </a>
+        </div>
+    </section><!--Tabela Final-->
+
+    <section class="redes">
+        <div class="icones">
+            <a href="#"><img src="/IMG/icon-spotify.svg" alt="spotify"></a>
+            <a href="#"><img src="/IMG/icon-facebook.svg" alt="facebook"></a>
+            <a href="#"><img src="/IMG/icon-linkedin.svg" alt="linkedin"></a>
+            <a href="#"><img src="/IMG/icon-instagram.svg" alt="instagram"></a>
+            <a href="#"><img src="/IMG/icon-youtube.svg" alt="youtube"></a>
+            <a href="#"><img src="/IMG/icon-twitter.svg" alt="twitter"></a>
+        </div>
+
+        <div class="politica">
+            <a href="#">Política de privacidade</a>
+            |
+            <a href="#">Política de troca de produto</a>
+            |
+            <a href="#">Termos de uso</a>
+            |
+            <a href="#">Política de Cookies</a>
+        </div>
+    </section>
+
+    <section class="footer">
+        <footer>&copy;Flávio Sabino 24/01/2022</footer>
+    </section><!--Rodapé-->
+
+</body>
+</html>

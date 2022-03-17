@@ -1,0 +1,118 @@
+body, ul, li, p {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    /*font-size: 0.8rem;*/
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font:bolder;
+}
+
+a{
+    text-decoration: none;
+    color: #036635;
+}
+
+/*MENU PRINCIPAL*/
+.menu1{
+    width: 1050px;
+    margin-left: 10px;
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 10px;
+    font-size: 0.8rem;
+    justify-content: center;
+}
+
+.menu{
+    display: flex;
+}
+
+.menu li{
+    margin-left: 30px;
+    font-weight: bold;
+}
+
+
+/*SUBMENU - INTERAÇÃO E ACESSO*/
+.menu2{
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:space-around;
+    padding:30px;
+}
+
+.subMenu {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+
+#location {
+    font-weight: bold;
+    padding-top:10px ;
+}
+
+
+/*BOTÕES DE INTERAÇÃO E ACESSO*/
+.btn {
+    position: absolute;
+    right: 50px;
+    top: 60px;
+}
+
+#btn1 {
+    font-weight: bold;
+    font-size: 0.90rem;
+    color: #036635;
+    background: white;
+    /*background:#036635;*/
+    padding:  10px 10px ;
+    border-radius: 35px;
+    cursor: pointer;
+    border: 1px solid black;
+    position: absolute;
+    right: 140px;
+}
+
+#btn2 {
+    font-size: 0.90rem;
+    color: white;
+    background:#036634;
+    padding:  10px  10px ;
+    border-radius: 35px;
+    cursor:pointer;
+    border: 1px solid black;
+}
+
+.imgMenu {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #f2efed;
+    box-shadow: inset 0 0 0.3em #8c8f8d;
+}
+
+.infoMenu {
+    padding-left: 200px;
+    padding-bottom: 220px;
+}
+
+.infoMenu h1 {
+    font-size:40px;
+    font-weight: bolder;
+    color: #32312d;
+}
+
+.consultePreco{
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 800){
+    .imgMenu {
+        width: 100%;
+    }
+}

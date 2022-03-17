@@ -1,0 +1,379 @@
+body, ul, li, p {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    /*font-size: 0.8rem;*/
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font:bolder;
+}
+
+a{
+    text-decoration: none;
+    color: #036635;
+}
+
+/*MENU PRINCIPAL*/
+.menu1{
+    width: 1050px;
+    margin-left: 10px;
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 10px;
+    font-size: 0.8rem;
+    justify-content: center;
+}
+
+.menu{
+    display: flex;
+}
+
+.menu li{
+    margin-left: 30px;
+    font-weight: bold;
+}
+
+
+/*SUBMENU - INTERAÇÃO E ACESSO*/
+.menu2{
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:space-around;
+    padding:30px;
+}
+
+.subMenu {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+
+#location {
+    font-weight: bold;
+    padding-top:10px ;
+}
+
+
+/*BOTÕES DE INTERAÇÃO E ACESSO*/
+.btn {
+    position: absolute;
+    right: 50px;
+    top: 60px;
+}
+
+#btn1 {
+    font-weight: bold;
+    font-size: 0.90rem;
+    color: #036635;
+    background: white;
+    /*background:#036635;*/
+    padding:  10px 10px ;
+    border-radius: 35px;
+    cursor: pointer;
+    border: 1px solid black;
+    position: absolute;
+    right: 140px;
+}
+
+#btn2 {
+    font-size: 0.90rem;
+    color: white;
+    background:#036634;
+    padding:  10px  10px ;
+    border-radius: 35px;
+    cursor:pointer;
+    border: 1px solid black;
+}
+
+/*INTERAÇÃO COM IMAGENS*/
+#btnInterativo{
+    position: absolute;
+    top: 350px;
+    right: 80px;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+#btnInterativo2{
+    position: absolute;
+    top: 350px;
+    left: 80px;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+/*SAIBA MAIS SOBRE AS LOJAS*/
+.saibaMais {
+    width: 100%;
+    background: #d4e9e2 ;
+    text-align: center;
+    font-size: 1.1rem;
+    font-family: 'SoDo Sans',Helvetica Neue,Helvetica,Arial,sans-serif;;
+    margin-top: 30px ;
+    padding:50px ;
+    font-weight: 400;
+    color: #32312d;
+    font-weight: 500;
+    height: 100px;
+}
+
+#saibaBotao{
+    font-weight: bold;
+    font-size: 0.90rem;
+    color: #036635;
+    background: #d4e9e2;
+    padding:8px;
+    border-radius: 35px;
+    cursor: pointer;
+    border: 1px solid black;
+    margin: 50px;
+}
+
+/*VOLTANDO AO QUE AMAMOS JUNTOS*/
+.covid19 {
+    margin-top: 30px;
+    background:#d4e9e2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 100px ;
+    font-size: 1.1rem;
+    color: #32312d;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.escritaInfo{
+    padding-bottom: 10px ;
+}
+
+.escritaInfo h2 {
+    padding-left: 35px;
+    font-weight: 500;
+}
+
+#paragrafo {
+    padding-left: 20px;
+}
+
+#line4{
+    padding-left: 10px;
+}
+
+#line5{
+    padding-left: 15px;
+}
+
+#line6 {
+    padding-left: 25px;
+}
+
+#line7{
+    padding-left: 15px;
+}
+
+#App{
+    font-weight: bold;
+    font-size: 0.90rem;
+    color: #036635;
+    background: #d4e9e2;
+    padding:8px;
+    border-radius: 35px;
+    cursor: pointer;
+    border: 1px solid black;
+    margin: 50px;
+}
+
+/* SABOREIE UMA PAUSA // INFORMAÇÕES*/
+.saboreie{
+    background:#d4e9e2;
+    margin-top:30px ;
+}
+
+.imgSaboreie{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.infoSaboreie{
+    width: 450px;
+    padding-left: 150px;
+    position: absolute;
+    top: 1600px;
+    color: #32312d;
+}
+
+.infoSaboreie h2{
+    text-align: center;
+    font-weight: 500;
+}
+
+.infoSaboreie p{
+    font-weight: 500;
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+#saboreieBotao{
+    font-weight: bold;
+    font-size: 0.90rem;
+    color: #036635;
+    background: #d4e9e2;
+    padding:8px;
+    border-radius: 35px;
+    cursor: pointer;
+    border: 1px solid black;
+    margin: 50px;
+    margin-left: 170px;
+}
+
+/*ESPERANÇA E UNIÃO*/
+.hope {
+    height: 398px;
+    margin-top: 30px;
+    background:#d4e9e2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 100px ;
+    font-size: 1.1rem;
+    color: #32312d;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.imgHope{
+    margin-top: 11px;
+}
+
+.hu h2{
+    padding-left: 50px;
+}
+
+#botaoHope{
+    font-weight: bold;
+    font-size: 0.90rem;
+    color: #036635;
+    background: #d4e9e2;
+    padding:8px;
+    border-radius: 35px;
+    cursor: pointer;
+    border: 1px solid black;
+    margin: 50px;
+    margin-left: 130px;
+}
+
+/*COISAS BOAS ESTÃO ACONTECENDO*/
+.happened{
+    margin-top: 30px;
+    background: #d4e9e2;
+    display: flex;
+    justify-content: space-between;
+}
+
+.infoHapp{
+    margin-top: 100px;
+    padding-left: 150px;
+    color: #32312d;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.infoHapp h2{
+    margin-left: 25px;
+}
+
+.infoHapp p {
+    font-size: 1.1rem;
+}
+
+#botaoHapp{
+    font-weight: bold;
+    font-size: 0.90rem;
+    color: #036635;
+    background: #d4e9e2;
+    padding:8px;
+    border-radius: 35px;
+    cursor: pointer;
+    border: 1px solid black;
+    margin: 50px;
+    margin-left: 130px;
+}
+
+/*FINAL PÁGINA PRINCIPAL*/
+.infoFinal {
+    margin-top: 30px;
+    /*border-top:2px solid black;*/
+    box-shadow: inset 0 0 1em #036635;
+}
+
+table {
+    text-align: center;
+    width: 1100px;
+    padding-top: 50px;
+    font-weight: 500;
+    font-size: 0.9rem;
+    line-height: 20px;
+    color: #32312d;
+}
+
+table th {
+    padding-bottom: 40px;
+}
+
+table td{
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.sobreFinal{
+    position: absolute;
+    right: 100px;
+    top: 2850px;
+}
+
+/*REDES SOCIAL / CONTATOS*/
+
+.redes{
+    margin-top: 40px;
+    margin-left: 100px;
+}
+
+.redes a {
+    padding: 5px;
+}
+
+.politica{
+    padding-top:25px ;
+}
+
+/*FOOTER*/
+.footer{
+    color: #32312d8a;
+    font-weight: 500;
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+
+@media (max-width: 700px){
+    .botoes, .menu1, .imagens {
+        width: 100%;
+    }
+
+    .botao {
+        display:none;
+    }
+    
+}
+
+@media (min-width: 800px){
+    p {
+        width: 100%;
+    }
+}
